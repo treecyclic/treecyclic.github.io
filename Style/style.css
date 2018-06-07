@@ -1,0 +1,86 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.header {
+  background-color: #000;
+  color: #f4f4f4;
+  overflow: hidden;
+  width:100%;
+  margin: auto;
+	padding-bottom: 30px;
+  display: block;
+  text-align: center;
+		border-bottom: #e8491d 3px solid;
+}
+
+p {
+	background: #e8491d;
+	border:0;
+	padding-right:2px;
+	padding-left:2px;
+	letter-spacing: 2px;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+.form {
+  display:block;
+}
+
+ h1 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.image1 {
+
+	position:relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+
+.image1 {
+
+	background-image: url('../Images/color.jpeg');
+	min-height:100%;
+}
+
+.ptext {
+
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align:center;
+	color: #000;
+	font-size: 27;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+
+}
+
+.ptext .border {
+
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+
+.ptext .border.trans {
+
+	background-color: transparent;
+}
+
+footer {
+	text-align: center;
+}
